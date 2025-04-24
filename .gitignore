@@ -1,26 +1,14 @@
-# Ignore compiled binaries
 *.exe
+*.dll
 *.o
 *.obj
 *.out
-
-# Ignore CMake build directory
 /build/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
-
-# Ignore SFML temp/cache/log files (just in case)
-*.log
-*.tmp
-
-# Ignore VS Code workspace settings
 .vscode/
-
-# Ignore OS-specific files
 .DS_Store
 Thumbs.db
-
-# Ignore temporary files
 *~
